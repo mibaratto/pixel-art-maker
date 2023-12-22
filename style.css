@@ -1,0 +1,10 @@
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#pixelCanvas td {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
