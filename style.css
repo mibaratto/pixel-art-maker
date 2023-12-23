@@ -7,10 +7,20 @@ main {
 
 table {
   border-collapse: collapse;
+  cursor: pointer;
+}
+
+table,
+tr,
+td {
+  border: 1px solid lightgray;
+}
+
+td:hover {
+  background-color: rgba(0, 0, 0, 0.022);
 }
 
 #pixelCanvas td {
   width: 30px;
   height: 30px;
-  border: 1px solid black;
 }
