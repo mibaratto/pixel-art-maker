@@ -13,14 +13,30 @@
         <h1>Pixel Art Maker</h1>
       </header>
       <form id="sizePicker">
-        Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" value="0" />
-        Grid Width:
-        <input type="number" id="inputWidth" name="width" min="1" value="0" />
-        <input type="submit" />
+        <div>
+          <label>Grid Height:</label>
+
+          <input
+            type="number"
+            id="inputHeight"
+            name="height"
+            min="1"
+            value="1"
+          />
+        </div>
+
+        <div>
+          <label>Grid Width:</label>
+          <input type="number" id="inputWidth" name="width" min="1" value="1" />
+        </div>
+
+        <input type="submit" id="button" />
       </form>
-      <h2>Pick A Color</h2>
-      <input type="color" id="colorPicker" value="#e66465" />
+      <section class="color-picker">
+        <h2>Pick a color</h2>
+        <input type="color" id="colorPicker" value="#3498db" />
+      </section>
+
       <table id="pixelCanvas"></table>
     </main>
     <script src="/app.js"></script>
