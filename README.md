@@ -4,12 +4,12 @@ This is the final project of Intro to Programming Nanodegree at Udacity. It's a 
 # Requiriments
 The users should be able to:
 
- - Dynamically set the size of the table as an N by M grid.
+ - Dynamically set the size of the grid.
  - Choose a color.
  - Click a cell in the grid to fill that cell with the chosen color.
 
 
-### In this project, you'll use your front-end programming skills including:
+### Front-end programming skills developed in this project:
 
 Defining variables with const and let
 Accessing the DOM using methods of the document object
