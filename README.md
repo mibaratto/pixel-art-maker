@@ -1,4 +1,4 @@
-# pixel-art-maker
+# Pixel Art Maker
 This is the final project of Intro to Programming Nanodegree at Udacity. It's a single-page web app that allows users to draw pixel art on a customizable canvas.
 
 # Requiriments
